@@ -66,7 +66,10 @@ export default function Home() {
             {copy.services.map((service, index) => (
               <ServiceCard
                 key={service.title}
-                {...service}
+                title={service.title}
+                description={service.description}
+                icon={service.icon as keyof typeof import("@/components/service-card").iconMap}
+                benefits={service.benefits}
                 index={index}
               />
             ))}
