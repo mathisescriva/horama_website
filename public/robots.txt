@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://horama.ai/sitemap.xml
+
+# Disallow admin pages if any
+# Disallow: /admin
+
+# Allow crawling of all public pages
+Allow: /
+Allow: /services
+Allow: /conferences
+Allow: /expertise
+Allow: /contact
+Allow: /legal
